@@ -37,10 +37,10 @@ export default function UserProfile({ params }) {
         <button onClick={() => router.back()} className="button backBtn">
           Geri
         </button>
-        <h2>{user.firstName}'s Todo List</h2>
+        <h2>{user.firstName}&apos; s Todo List</h2>
 
         {todos.length === 0 ? (
-          <p>You haven't created any todos. Create one!</p>
+          <p>You haven&apos;t created any todos. Create one!</p>
         ) : (
           <ul>
             {todos.map(todo => (
