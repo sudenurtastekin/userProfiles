@@ -58,7 +58,7 @@ export default function UserProfile({ params }) {
       </div>
       <div className="profile">
 
-        <h1 className='detailProfile'> <img src={user.image} alt={`${user.firstName} ${user.lastName}`} className="detailProfileImg" />{user.firstName} {user.lastName}'s Profile   </h1>
+        <h1 className='detailProfile'> <img src={user.image} alt={`${user.firstName} ${user.lastName}`} className="detailProfileImg" />{user.firstName} {user.lastName}&apos;s Profile   </h1>
         <span className='usernameDetails'> <strong>@{user.username}</strong></span>
 
 
